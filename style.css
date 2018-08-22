@@ -1,0 +1,66 @@
+
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.combo-lock {
+  width: 2000px;
+  overflow: hidden;
+}
+
+.combo {
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+
+.combonumber {
+  font-size: 82px;
+  margin-left: 80px;
+}
+
+.combo#spacer {
+  width: 500px;
+  background-color: lightgray;
+}
+
+#zero {
+  background-color: gray;
+  color: white;
+}
+
+#one {
+  background-color: lightgray;
+}
+
+#two {
+  background-color: gray;
+  color: white;
+}
+
+#three {
+  background-color: lightgray;
+}
+
+.resultarea {
+  height: 50px;
+  width: 500px;
+}
+
+.result {
+  float: left;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: lightgray;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 28px;
+}
+
+.lit {
+  transition: .5s ease-in;
+  background-color: yellow;
+}
